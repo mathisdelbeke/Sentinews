@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head> 
+	<body>
+		<div id="button" >
+			<form action="read_tweets.php" method="get">
+				<input type="submit" name="button" value="READ">
+			</form>
+		</div>
+		
+		<div>
+			<div id="wrapper">
+				<div id="first"><iframe id="frame" src="../Resources/positive_tweets.txt"></iframe></div>
+				<div id="second"><iframe id="frame" src="../Resources/neutral_tweets.txt"></iframe></div>
+				<div id="third"><iframe id="frame" src="../Resources/negative_tweets.txt"></iframe></div>
+			</div>	
+		</div>
+	</body>
+</html>
